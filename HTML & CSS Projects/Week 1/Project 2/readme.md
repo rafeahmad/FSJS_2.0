@@ -8,7 +8,6 @@
 * I used after pseudo selector 
 * I used transition property for button
 
+# Output
 
-Preview :
-
-![output (1)]("C:\Users\rafen\OneDrive\Pictures\Output2.jpg")
+![Output2](https://user-images.githubusercontent.com/119880897/209840779-a2119700-e44a-4842-b657-591888114206.jpg)
