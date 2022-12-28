@@ -8,4 +8,4 @@ First I gave background color to body and used display flex for navigation bar t
 
 Output :
 
-![Image]("C:\Users\rafen\OneDrive\Pictures\Image3.jpg")
+![Image3](https://user-images.githubusercontent.com/119880897/209842020-4beb6b3b-ca92-4e8e-8e12-839fab339674.jpg)
