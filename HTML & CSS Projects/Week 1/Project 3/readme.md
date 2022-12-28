@@ -9,6 +9,5 @@
 * I used opacity property
 
 
-Preview :
-
-![Output3]("C:\Users\rafen\OneDrive\Pictures\Output3.jpg")
+# Output
+![Output3](https://user-images.githubusercontent.com/119880897/209840883-a7feb4cc-908f-438f-b0e0-b36b6d96a175.jpg)
