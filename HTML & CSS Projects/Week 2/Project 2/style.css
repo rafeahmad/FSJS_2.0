@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+    background-color: #F0F4F5;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 0 5%;
+}
+
+/* Logo */
+nav img {
+   height: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+nav ul li:first-child {
+    color: #20bc7e;
+}
+
+/* Main Section */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.left-section {
+    position: relative;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.topangle {
+    width: 25px;
+}
+
+.left-section h1 {
+    font-size: 70px; 
+}
+
+.left-section p {
+    color: #808080;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.bottomangle {
+    width: 25px;
+    position: absolute;
+    right: 0;
+}
+
+.sthethoscope {
+    width: 90%;
+    position: absolute;
+    top: -70px;
+    right: -30%;
+    /* z-index: -1; */
+}
+
+.mouse {
+    position: absolute;
+    right: -70px;
+    bottom: 0;
+}
+
+button {
+    background-color: #20bc7e;
+    border: none;
+    padding: 20px 70px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.right-section {
+    width: 50%;
+}
+
+.greenbox, .yellowbox {
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+
+.greenbox {
+    width: 450px;
+    margin-right: 20px;
+}
+
+.yellowbox {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.doctor {
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    height: 85%;
+}

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation-bar */
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+/* Logo */
+.navbar-container img {
+    width: 100px;
+    margin-top: 8px;
+    margin-left: -90px;
+}
+
+ul {
+    display: flex;
+    position: absolute;
+    left: 20%;
+    top: 10.5%;
+}
+.list-item {
+    list-style-type: none;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #c5c5c5;
+}
+li:first-child {
+    color: black;
+    font-weight: 500;
+}
+
+.nav-button {
+    width: 120px;
+    padding: 14px;
+    background-color: #5955b3;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+    position: absolute;
+    right: 120px;
+}
+
+/* Banner */
+.banner-container{
+    display: flex;
+    margin-left: 160px;
+}
+
+/* Left-text */
+.heading-text {
+    position: absolute;
+    top: 32%;
+    font-size: 65px;
+    width: 40%;
+    line-height: 5rem;
+}
+span {
+    color: #5955b3;
+}
+.description {
+    position: absolute;
+    top: 68%;
+    color: #a19f9f;
+    width: 28%;
+    font-size: 18px;
+}
+.btn {
+    position: absolute;
+    bottom: 10%;
+    left: 160px;
+    width: 200px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+/* Right-text ---- Image */
+.banner-container img {
+    width: 850px;
+    height: 550px;
+    position:  absolute;
+    top: 20%;
+    right: 0;   
+}
