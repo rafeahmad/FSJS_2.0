@@ -43,17 +43,13 @@
  Ordered list `ol` tag and Unordered list `ul` tag. Inside the `ul` tag there is `li` tag in which you can put list item.
 
  - By default, Unordered list item will be marked with a bullets.
- - By default, Ordered list item will be marked with a numbers
+ - By default, Ordered list item will be marked with a numbers.
 
-**Output -**
+**Description List -**
+ - `dl` tag represents description list.
+ - `dt` tag defines data term.
+ - `dd` tag defines data definition.
 
-
-## HTML Non Semantic Elements
-  Non Semantic elements means elements that have no meaning. `div` and `span` are the non semantic element in the HTML. They don't have any meaning and tells nothing about its content. `div` tag is used with block-level-element.
-
-  - `div` : It is known as division tag. It is used as a container in HTML document. You can put any element within `div` tag and give style with CSS.
-  - `span` : You can use `span` tag for grouping and applying styles to inline elements.
- 
 **Output -**
 
 
@@ -67,7 +63,7 @@
 **Output -**
 
 
-## HTML Semantic Element
+## HTML Semantic Elements
  **Semantic Element : Element with a meaning.**
   - A Semantic element clearly defines its meaning to both the browser and developer. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
 
@@ -79,6 +75,12 @@
         <time>, <audio>, <video>, etc.
 
       ```
+
+## HTML Non Semantic Elements
+  Non Semantic elements means elements that have no meaning. `div` and `span` are the non semantic element in the HTML. They don't have any meaning and tells nothing about its content. `div` tag is used with block-level-element.
+
+  - `div` : It is known as division tag. It is used as a container in HTML document. You can put any element within `div` tag and give style with CSS.
+  - `span` : You can use `span` tag for grouping and applying styles to inline elements.
 
 
 ## HTML Table 
