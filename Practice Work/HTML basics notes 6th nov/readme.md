@@ -4,12 +4,15 @@
  With the help of these tags, you can embed any video and audio on the web page very easily.
 
 **Output -**
+![audio video](https://user-images.githubusercontent.com/119880897/210033981-cdad2427-e343-4f37-a298-249a57a714da.jpg)
+
 
 
 ## HTML Form (Input Elements)
  We can use HTML `form` tag to collect user input. An HTML form contains controls such as text fields, password fields, checkboxes, radio buttons, submit button, menus etc.
 
 **Output -**
+![HTML Form](https://user-images.githubusercontent.com/119880897/210034004-d6cf0f07-c37e-4ff4-868b-0a761321ce94.jpg)
 
 
 ## HTML Headings
@@ -17,6 +20,7 @@
   - `h1` is the most important heading and `h6` is the least important heading.
 
 **Output -**
+![Headings](https://user-images.githubusercontent.com/119880897/210034023-6fff120d-9c3d-4487-8144-f7b145021127.jpg)
 
 
 ## HTML iframe
@@ -24,18 +28,21 @@
   - Its simply means webpage within a webpage.
  
 **Output -**
+![iframe](https://user-images.githubusercontent.com/119880897/210034042-bb9ef900-c686-4b6d-8e6d-9615f1169d21.jpg)
 
 
 ## HTML Image tag
   The HTML `img` tag is used to add image in the HTML page. This is an empty tag, it means it has no closing tag.
  
 **Output -**
+![HTML Image](https://user-images.githubusercontent.com/119880897/210034058-9b69996a-54cf-4035-a7de-cde219b0c301.jpg)
 
 
 ## HTML link
  The `a` tag (anchor tag) defines a hyperlink.
  
 **Output -**
+![Link](https://user-images.githubusercontent.com/119880897/210034182-80bde2a5-be89-4dad-897c-6f50c08d98da.jpg)
 
 
 ## HTML List
@@ -51,6 +58,7 @@
  - `dd` tag defines data definition.
 
 **Output -**
+![HTML List](https://user-images.githubusercontent.com/119880897/210034193-bb5fc6f4-60bf-43e0-9fc1-0bd12d224d12.jpg)
 
 
 ## HTML Paragraph
@@ -61,6 +69,7 @@
   - `hr` tag gives a horizontal line in the page. This is also a empty tag it means it has no end tag.
  
 **Output -**
+![Paragraph](https://user-images.githubusercontent.com/119880897/210034203-b2aa8de1-1732-48a3-8bc7-f2c2ab0872e6.jpg)
 
 
 ## HTML Semantic Elements
@@ -89,6 +98,7 @@
  **Here I created a class routine with the help of `table` tag.**
  
 **Output -**
+![Table](https://user-images.githubusercontent.com/119880897/210034213-850cde28-fa10-4e7a-8873-9605314f5502.jpg)
 
 
 ## Class Work (youtube.html)
@@ -96,6 +106,7 @@
 I completed class work to add videos of hitesh sir from youtube with the help of table tag.
 
 **Output -**
+![Class Work](https://user-images.githubusercontent.com/119880897/210034328-d8124ac1-3f34-45e8-acf4-9136f2b16a8c.jpg)
 
 
 
