@@ -8,10 +8,10 @@
 
 
 ## Project 2 :
-# Preview
+### Preview
 ![Image2](https://user-images.githubusercontent.com/119880897/209841445-f6051458-ad7c-406f-9dcd-7d6bc89b174a.jpg)
 
 
 ## Project 3 :
-# Preview
+### Preview
 ![Image3](https://user-images.githubusercontent.com/119880897/209841499-af61bb1d-12b7-43f2-90b7-f56774ca0418.jpg)
