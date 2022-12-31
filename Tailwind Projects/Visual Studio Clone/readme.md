@@ -15,4 +15,4 @@ https://user-images.githubusercontent.com/119880897/210095450-f9426a62-7cf8-47e3
 
 *Note : This clone of VS code is responsive on larger screens only.*
 
-[Live Link](https://serene-dasik-dcc44d.netlify.app/)
+[Live Link](https://rafeahmad-vscodeclone-tailwindcss.netlify.app/)
