@@ -258,12 +258,14 @@ ul li:hover {
     padding: 50px 80px;
     position: relative;
     top: 50px;
-
+    transition: 0.3s;
 }
+
 .box-2 {
     border: 2px solid #fff;
     background-color: rgb(85, 83, 83);
     padding: 50px 60px;
+    transition: 0.3s;
 }
 .box-3 {
     border: 1px solid #fff;
@@ -271,6 +273,13 @@ ul li:hover {
     padding: 50px 80px;
     position: relative;
     top: 50px;
+    transition: 0.3s;
+}
+.tap:hover {
+    transform: translate(0, -15px);
+    box-shadow: 2px 3px 40px #f53dec;
+    cursor: pointer;
+    border: none;
 }
 #cloud {
     position: relative;
