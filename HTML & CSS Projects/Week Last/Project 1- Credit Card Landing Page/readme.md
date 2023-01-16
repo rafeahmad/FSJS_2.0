@@ -5,7 +5,7 @@
 
 **Honest time to complete this project - 10 hours**
 
-In this project, I used some semantic elements of html and many properties of css for ex: flex, position, overflow and z-index.
+In this project, I used some semantic elements of html and many properties of css for ex: flex, position, transform, overflow and z-index.
 
 #### Output -
 
