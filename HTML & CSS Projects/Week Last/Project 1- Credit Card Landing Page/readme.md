@@ -1,7 +1,7 @@
 ## Full Stack JavaScript Bootcamp 2.0
 ### Project 7 - Credit card landing page
 
-*Here is my 6th project using HTML and CSS*
+*Here is my 7th project using HTML and CSS*
 
 **Honest time to complete this project - 10 hours**
 
