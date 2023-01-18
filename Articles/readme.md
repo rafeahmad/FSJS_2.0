@@ -37,3 +37,22 @@
 ### 9. CSS Grid
 
    [Link](https://ahmadrafe.hashnode.dev/css-grid)
+   
+
+### 10. CSS Selectors
+
+   [Link](https://ahmadrafe.hashnode.dev/css-selectors)
+   
+   
+### 11. JavaScript
+
+   [Link](https://ahmadrafe.hashnode.dev/javascript)
+   
+   
+### 12. JavaScript Array Methods
+
+   [Link](https://ahmadrafe.hashnode.dev/javascript-array-methods)
+   
+
+
+

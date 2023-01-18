@@ -1,31 +1,26 @@
 ## Full Stack JavaScript 2.0
 
-### HTML & CSS Assignments -
+**Live links of projects -**
 
-Project 1
+### HTML & CSS Projects -
 
-[Preview](./HTML%20%26%20CSS%20Projects/Week%201/Project%201/Output.jpg)
+[Project 1](https://rafeahmad-html-css-project1.netlify.app/)
 
-Project 2
+[Project 2](https://rafeahmad-html-css-project2.netlify.app/)
 
-[Preview](./HTML%20%26%20CSS%20Projects/Week%201/Project%202/Output.jpg)
+[Project 3](https://rafeahmad-html-css-project3.netlify.app/)
 
-Project 3
+[Project 4](https://rafeahmad-html-css-project4.netlify.app/)
 
-[Preview](./HTML%20%26%20CSS%20Projects/Week%201/Project%203/Output.jpg)
+[Project 5](https://rafeahmad-html-css-project5.netlify.app/)
 
-Project 4
+[Project 6](https://rafeahmad-html-css-project6.netlify.app/)
 
-[Preview](./HTML%20%26%20CSS%20Projects/Week%202/Project%201/output.png)
-
-Project 5
-
-[Preview](./HTML%20%26%20CSS%20Projects/Week%202/Project%202/output.png)
-
-Project 6
-
-[Preview](./HTML%20%26%20CSS%20Projects/Week%202/Project%203/Output.jpg)
+[Project 7](https://rafeahmad-html-css-project-7.netlify.app/)
 
 
+### Tailwind Project -
 
+**Visual Studio Clone** 
 
+[Live link](https://rafeahmad-vscodeclone-tailwindcss.netlify.app/)
