@@ -493,7 +493,7 @@ button:hover {
 .footer {
     padding: 50px;
     background-color: #000;
-    height: 930px;
+    height: 950px;
 }
 .footer h1 {
     color: #fff;
@@ -518,6 +518,10 @@ button:hover {
 }
 .user-input input::placeholder {
     font-size: 16px;
+}
+.user-input input:focus {
+    offset: 0;
+    outline: none;
 }
 .signup-btn {
     padding: 20px 40px;
@@ -550,7 +554,7 @@ button:hover {
 .footer-menu ul li {
     list-style: none;
     text-decoration: none;
-    margin: -15px 0;
+    margin: -10px 0;
 }
 .help {
     margin-top: -35px;
