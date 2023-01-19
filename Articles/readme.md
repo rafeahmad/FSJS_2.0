@@ -53,6 +53,10 @@
 
    [Link](https://ahmadrafe.hashnode.dev/javascript-array-methods)
    
+   
+### 13. Prototype and Prototype chaining
+
+   [Link](https://ahmadrafe.hashnode.dev/prototype-prototype-chaining)
 
 
 
