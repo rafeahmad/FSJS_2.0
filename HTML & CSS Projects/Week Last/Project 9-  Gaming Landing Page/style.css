@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ======== Section-One ======== */
+.section-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./Assets/Photos/futuristic-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 720px;
+    padding: 30px 10px;
+}
+
+/* ======== Navigation-Bar ======== */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-nav {
+    display: flex;
+    gap: 150px;
+    margin-left: -7rem;
+}
+.section-one .right-nav img {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 45px;
+}
+.section-one ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.section-one ul li {
+    list-style: none;
+}
+.section-one ul li a {
+    color: rgb(205, 201, 201);
+    text-decoration: none;
+    position: relative;
+}
+.section-one ul li a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: 0.3s;
+    margin-top: 4px;
+}
+.section-one ul li a:hover::after {
+    width: 100%;
+    background: #f4694c;
+}
+.left-nav {
+    position: relative;
+    left: 5%;
+}
+.btn {
+    background-color: #f4694c;
+    padding: 12px 28px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.sign-up:hover {
+    box-shadow: 2px 2px 10px 10px #000;
+    background-color: #fff;
+    color: #f4694c;
+    cursor: pointer;
+}
+.sign-in {
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    padding: 12px 28px;
+}
+.sign-in:hover {
+    background-color: #f4694c; 
+    text-shadow: 0px 0px 16px rgba(255, 255, 255, 1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+/* ======== Home ======== */
+.section-one .main {
+    display: flex;
+    padding: 20px 74px;
+    margin-top: 10%;
+}
+
+/* ====== Home(left-side) ====== */
+.main .left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+}
+.main .left-side h1 {
+    color: #fff;
+    font-size: 60px;
+    width: 60%;
+    line-height: 80px;
+}
+.main .left-side p {
+    color: rgb(165, 164, 164);
+    width: 45%;
+    line-height: 30px;
+}
+.main-btn {
+    margin-left: -10px;
+}
+.start-btn {
+    padding: 15px 35px;
+}
+.learn-btn {
+    border: 2px solid #fff;
+    padding: 15px 35px;
+    color: #fff;
+    margin-left: 18px;
+    background-color: transparent;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+.start-btn:hover {
+    background-color: #fff;
+    color: #f4694c;
+    cursor: pointer;
+}
+.learn-btn:hover {
+    color: #fff;
+    background-color: #f4694c;
+    padding-right: 4%;
+    cursor: pointer;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+/* ====== Home(right-side) ====== */
+.right-side {
+    margin-top: 20%;
+    margin-right: 8%;
+}
+.playbutton {
+    position: relative;
+    bottom: 100%;
+    left: 20%;
+}
+.playbutton img {
+    height: 70px;
+}
+.playbutton img:hover {
+    cursor: pointer;
+    background-color:#f4694c;
+    border-radius: 50%;
+}
+
+.right-text p {
+    color: #fff;
+    font-size: 25px;
+    width: 110%;
+}
+#dash-img {
+    position: absolute;
+    right: 28%;
+    bottom: 14%
+}
+#right-arrow {
+    position: absolute;
+    right: 5%;
+    bottom: 3%
+}
+
+/* ========= Section-Two ========= */
+.section-two {
+    padding: 10% 5%;
+}
+.section-two #heading-two {
+    font-size: 45px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    line-height: 60px;
+}
+.war-games {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5%;
+}
+
+.card {
+    height: 380px;
+    width: 300px;
+    background-size: cover;
+}
+
+.soldier {
+    background-image: url(./Assets/Photos/image\ 2.png);
+    background-position: 80% 75%;
+}
+.warrior {
+    background-image: url(./Assets/Photos/image\ 4.png);
+    background-position: center;
+}
+.pubjiken {
+    background-image: url(./Assets/Photos/image\ 3.png);
+    background-position: center;
+}
+.garela {
+    background-image: url(./Assets/Photos/Rectangle\ 56.png);
+    background-position: center;
+}
+
+.blur-bg {
+    background: rgba(216, 211, 211, 0.201);
+    backdrop-filter: blur(1rem);
+    height: 115px;
+    position: relative;
+    top: 70%;
+}
+.about-game {
+    padding: 15px 20px;
+}
+.about-game p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 7px 0;
+}
+.about-game span {
+    color: rgb(160, 157, 157);
+    font-size: 15px;
+}
+.stars {
+    margin: 10px 0;
+}
+.stars img {
+    height: 15px;
+}
+.about-game .download {
+    position: absolute;
+    right: 7%;
+    bottom: 28%;
+    border: none;
+    padding: 10px 14px;
+    font-size: 14px;
+}
+.about-game .download:hover {
+    background-color:#fe5c04;
+    cursor: pointer;
+}
+
+.war-description {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 15%;
+}
+
+.war-description img {
+    width: 750px;
+    height: 480px;
+}
+
+.war-description .right {
+    margin-top: 25px;
+}
+.war-description h1 {
+    width: 90%;
+    text-align: start;
+    margin-left: -2px;
+    font-size: 42px;
+    line-height: 60px;
+}
+.war-description p {
+    color: rgb(140, 138, 138);
+    margin: 8% 0;
+    line-height: 30px;
+}
+.explore-new {
+    border: none;
+    padding: 16px 28px;
+}
+.explore-new:hover {
+    background-color: #fe4f04;
+    cursor: pointer;
+    box-shadow: 0 10px 40px #000;
+}
+.war-learn {
+    border: 2px solid #f4694c;
+    color: #f4694c;
+}
+
+.text-icon {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 10%;
+}
+.text-icon h1 {
+    font-size: 42px;
+    width: 40%;
+    line-height: 60px;
+}
+.arrows {
+    margin-right: 7%;
+    margin-top: 2%;
+}
+#left-a {
+    background-color: #faa6958d;
+    padding: 15px;
+    position: relative;
+    right: 10px;
+}
+
+#right-a {
+    background-color:#f4694c;
+    padding: 15px;
+    position: relative;
+    left: 60px;
+    bottom: 48px
+}
+#left-a:hover {
+    background-color: #f77c47c8;
+    color: #fff;
+    cursor: pointer;
+}
+
+#right-a:hover {
+    background-color: #fe4f04;
+    color: #fff;
+    cursor: pointer;
+}
+
+.game-types {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    margin-top: 5%;
+}
+.games {
+    height: 330px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    transition: 0.4s;
+}
+.games:hover {
+    transform: scale(1.2);
+}
+.games img {
+    width: 260px;
+    height: 310px;
+}
+
+.about-types {
+    position:relative;
+    top: 12px;
+    right: 10px;
+}
+.about-types h2 {
+    margin: 15px 0;
+    line-height: 35px;
+} 
+.about-types span {
+    color: #f4694c;
+}
+.about-types p {
+    color: rgb(167, 165, 165);
+    font-size: 15px;
+    margin: 25px 0;
+    line-height: 25px;
+}
+.about-types button {
+    border: none;
+    position: relative;
+    right: 2px;
+    margin: 10px 0;
+}
+.about-types button:hover {
+    background-color: #fe4f04;
+    cursor: pointer;
+}
+
+/* ========= Section-Three ========= */
+.section-three {
+    background-color: #000;
+    height: 1000px;
+    padding: 5% 0;
+}
+.heading-three {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    width: 30%;
+    line-height: 60px;
+    margin-left: 35%;
+}
+.section-three-right p {
+    color: rgb(181, 180, 180);
+    font-size: 18px;
+    width: 75%;
+    margin-top: 40px;
+    line-height: 30px;
+}
+.section-three-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 3%;
+    margin-left: 12%;
+    background-image: url(./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg);
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    background-size: auto;
+}
+.card-one img {
+    height: 450px;
+    width: 400px;
+}
+.card-two img {
+    height: 380px;
+    width: 300px;
+    position: relative;
+    top: 10rem;
+}
+.card-three img {
+    height: 250px;
+    width: 300px;
+    position: relative;
+    top: 18rem;
+}
+.section-three-img {
+    display: flex;
+    gap: 50px;
+}
+
+/* ========= Section-Four ========= */
+.section-four {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60),
+    rgba(0, 0, 0, 0.60)), url(./Assets/Photos/Rectangle\ 606.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 8% 0;
+    height: 500px;
+}
+.section-four h1 {
+    color: #fff;
+    font-size: 35px;
+    line-height: 50px;
+}
+.section-four p {
+    color: rgb(223, 222, 222);
+    font-size: 15px;
+    line-height: 25px;
+    margin: 25px 0;
+}
+.section-four button {
+    border: none;
+}
+
+/* ======== Footer ======== */
+.footer {
+    background-color: #000;
+    height: 460px;
+    padding: 4% 0;
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+.logo-icons {
+    margin-left: 8%;
+}
+.logo-icons p {
+    color: rgb(156, 155, 155);
+    margin: 22px 0;
+    width: 60%;
+    line-height: 25px;
+}
+.icons img {
+    margin-right: 10px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 100px;
+    margin-top: -8px;
+}
+.footer-list ul {
+    display: flex;
+    flex-direction: column;
+}
+.footer-list ul li {
+    color: #fff;
+    list-style: none;
+    margin-top: 30px;
+    color: rgb(156, 155, 155);
+}
+.footer-list ul li:hover {
+    color: #f4694c;
+    cursor: pointer;
+}
+#first-item {
+    color: #fff;
+    margin: 10px 0;
+}
+.end-line{
+    border: 0;
+    height: 2px;
+    width: 100%;
+    background: #202d39;
+    margin: auto;
+    position: absolute;
+    top: 85%;
+}
+
+
