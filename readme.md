@@ -18,6 +18,11 @@
 
 [Project 7](https://rafeahmad-html-css-project-7.netlify.app/)
 
+[Project 8](https://rafeahmad-html-css-project8.netlify.app/)
+
+[Project 9](https://rafeahmad-html-css-project9.netlify.app/)
+
+
 
 ### Tailwind Project -
 
