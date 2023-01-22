@@ -11,4 +11,6 @@ I have completed 7th project of fsjs2.0 using html and css. In this project i us
 
 https://user-images.githubusercontent.com/119880897/213376505-597b2316-4993-4a39-ae1e-8a0cdd5dcee6.mp4
 
+**Note : As of now, This website is only for desktops but I will make it responsive later.**
+
 [Live link](https://rafeahmad-html-css-project-7.netlify.app/)
