@@ -9,4 +9,4 @@ I wrote full CSS for all the three projects and learnt a lot of things of CSS
 2. I wrote full CSS for 3rd project and learned how to center content in the webpage.
 
 ### Week Last -
-I have completed two projects out of six till now using html and css. I learned a lot of new things while making the projects. I am working on rest projects. 
+I have completed four projects out of six till now using html and css. I learned a lot of new things while making the projects. I am working on rest projects. 
