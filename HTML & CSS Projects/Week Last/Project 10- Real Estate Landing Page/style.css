@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ========== Section-One ========== */
+.home {
+    height: 730px;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.60), rgb(0, 0, 0, 0.60)), url(./Photos/mainBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 25%;
+    padding: 30px 15px;
+}
+
+/* ======= Navigation-Bar ======= */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+}
+.hr-line {
+    display: block;
+    width: 90%;
+    border-bottom: 2px solid rgb(125, 124, 124);
+    margin-top: 30px;
+    margin-left: 5%;
+}
+.navbar .logo img {
+    height: 50px;
+    margin-right: 5rem;
+}
+.navbar ul {
+    display: flex;
+    gap: 80px;
+    margin-top: 30px;
+}
+.navbar ul li {
+    color: #fff;
+    font-size: 17px;
+    list-style: none;
+    cursor: pointer;
+}
+.navbar ul li::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: 0.3s;
+    margin-top: 4px;
+}
+.navbar ul li:hover::after {
+    background: #6663e9;
+    width: 100%;
+}
+
+/* ========== Section-One (Home) ========== */
+.home-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: #fff;
+    position: relative;
+    left: 9%;
+    top: 8rem;
+}
+.home-text h1 {
+    font-size: 60px;
+    width: 40%;
+    line-height: 75px;
+}
+.home-text p {
+    font-size: 18px;
+    width: 30%;
+    color: rgb(193, 192, 192);
+    line-height: 30px;
+}
+.btn {
+    background-color: #6663e9;
+    color: #fff;
+    padding: 15px 25px;
+    width: 10%;
+    font-size: 17px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+.btn:hover {
+    transform: translate(10px, 0);
+    cursor: pointer;
+    background-color: #fff;
+    color: #6663e9;
+}
+
+/* ========== (Logo) ========== */
+.logo-img {
+    padding: 60px;
+    margin: 0 5%;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    position: relative;
+    bottom: 5rem;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+/* ========== Section-Two (Pricing) ========== */
+.home-price {
+    background-color: rgb(243, 241, 241);
+    margin-top: -11%;
+    padding: 5px 0;
+}
+.home-price h1 {
+    font-size: 50px;
+    width: 30%;
+    padding: 50px 0;
+    text-align: center;
+    line-height: 75px;
+    position: relative;
+    top: 8rem;
+    left: 36%;
+}
+
+/* ======== Price-cards ======== */
+.price-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 30px;
+    margin: 10% 5%;
+    position: relative;
+    left: 2%;
+}
+.pricing {
+    width: 500px;
+    height: 500px;
+    margin-right: -120px;
+    transition: 0.3s;
+}
+.pricing:hover {
+    transform: scale(1.1);
+}
+.pricing img {
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+}
+.pricing img:hover {
+    filter: saturate(3)
+}
+
+.about-home {
+    background-color: #fff;
+    padding: 20px;
+    width: 60%;
+    position: relative;
+    margin-left: 10%;
+    margin-top: -60px;
+    border-radius: 15px;
+    z-index: 1;
+    box-shadow: 0 0px 21px -10px #000000;
+}
+.about-home h3 {
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.about-home span {
+    color: #6663e9;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.pricing-btn {
+    padding: 15px 35px;
+    background-color: #6663e9;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    left: 3.5rem;
+    bottom: 15px; 
+    transition: 0.3s;
+}
+.pricing-btn:hover {
+    background-color: #4744f1;
+    cursor: pointer;
+}
+
+.card-second {
+    margin-top: 3rem;
+}
+.card-third {
+    margin-top: 6rem;
+}
+.card-fifth {
+    margin-top: -3rem;
+}
+.card-sixth {
+    margin-top: -5rem;
+}
+.card-seventh {
+    margin-top: -5rem;
+}
+.card-eighth {
+    margin-top: -3rem;
+}
+
+/* ========== Section-Third (Features) ========== */
+.features {
+    background-color: rgb(243, 241, 241);
+    height: 1300px;
+}
+
+/* ====== features-one ====== */
+.feature-one {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    margin-top: -80px;
+}
+.feature-one-img #bg-img1 {
+    position: relative;
+    top: 8px;
+}
+.feature-one-img #f1-img {
+    height: 450px;
+    width: 516px;
+    border-radius: 40px;
+    position: absolute;
+    left: 8.5%;
+    transition: 0.3s;
+}
+.feature-one-img #f1-img:hover {
+    transform: scale(1.1);
+    filter: saturate(3);
+    cursor: pointer;
+}
+.feature-one-text {
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+.feature-one-text h1 {
+    font-size: 50px;
+    width: 70%;
+    line-height: 70px;
+}
+.feature-one-text p {
+    color: rgb(79, 78, 78);
+    width: 60%;
+    line-height: 25px;
+    margin: 25px 0;
+}
+.feature-btn {
+    background-color:#6663e9;
+    color: #fff;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.feature-btn:hover {
+    transform: translate(10px, 0);
+    cursor: pointer;
+    background-color: #4744f1;
+}
+
+/* ====== features-two ====== */
+.feature-two {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    margin-top: 80px;
+}
+.feature-two-text {
+    margin-top: 6rem;
+    position: relative;
+    left: 20%;
+}
+.feature-two-text h1 {
+    font-size: 50px;
+    width: 70%;
+    line-height: 70px;
+}
+.feature-two-text p {
+    color: rgb(79, 78, 78);
+    width: 70%;
+    line-height: 25px;
+    margin: 25px 0;
+}
+
+.feature-two-img #bg-img2 {
+    position: relative;
+    left: 22%;
+}
+.feature-two-img #f2-img {
+    width: 510px;
+    height: 450px;
+    position: relative;
+    bottom: 56.5%;
+    left: 254px;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+.feature-two-img #f2-img:hover {
+    transform: scale(1.1);
+    filter: saturate(3);
+    cursor: pointer;
+}
+
+/* ========== Section-Fourth (Subscribe) ========== */
+.subscribe-section {
+    background-color: rgb(243, 241, 241);
+    padding: 50px 0;
+}
+.subscribe-box{
+    background-color: #6663e9;
+    padding: 80px 50px;
+    margin: 0 8%;
+    border-radius: 50px;
+}
+.subscribe-section h1 {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 70px;
+
+}
+.subscribe-section p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 25px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.subscribe-input {
+    margin-left: 23%;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+}
+
+.subscribe-input img {
+    position: relative;
+    top: 9px;
+    left: 50px;
+}
+
+.subscribe-input input{
+    background-color: #5654d1;
+    color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    padding-left: 4rem;
+    width: 30rem;
+    height: 4rem;
+    font-size: 16px; 
+}
+
+.subscribe-input input::placeholder {
+    color: #b7b6b6;
+}
+
+.subscribe-input input:focus {
+    outline-offset: 0px;
+    outline: none;
+    background-color: #444395;
+}
+
+.subscribe-input button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: #6663e9;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.subscribe-input button:hover {
+    background-color: #6866f1;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* ========== Footer ========= */
+.footer {
+    background-color: rgb(243, 241, 241);
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#footer-logo {
+    height: 50px;
+    margin: 25px 0;
+}
+.icons img {
+    height: 40px;
+    margin-right: 12px;
+}
+.left-footer p {
+    line-height: 25px;
+    margin: 25px 0;
+    color: #1a1a1a;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer ul h4 {
+    margin: 20px 0;
+}
+
+.footer ul li {
+    list-style: none;
+    margin: 12px 0;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    transition: 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #4341d2;
+}
