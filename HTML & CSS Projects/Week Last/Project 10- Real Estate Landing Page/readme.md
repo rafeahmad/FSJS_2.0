@@ -1,5 +1,5 @@
 # Full Stack JavaScript Bootcamp 2.0
-## Project 9 Gaming Landing Page
+## Project 10 Real Estate Landing Page
 **Honest time to complete the project - 8 hours**
 
 I have completed 10th project of fsjs2.0 using html and css. In this project, I have used transform and filter properties which works on hovering.
