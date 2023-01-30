@@ -26,6 +26,8 @@
 
 [Project 11 - Beats Landing Page](https://rafeahmad-htm-css-project11.netlify.app/)
 
+[Project 12 - Data Analytics Landing Page](https://rafeahmad-html-css-project12.netlify.app/)
+
 
 
 ### Tailwind Project - 
