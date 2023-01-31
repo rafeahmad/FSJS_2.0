@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript project 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100px;
+            background-color: #000000;
+            overflow: hidden;
+        }
+       
+        .circle {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+       
+        h1 {
+            color: #ffffff;
+            text-align: center;
+            margin-top: 5%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Click anywhere and enjoy with dotted colors</h1>
+    
+    <script>
+
+      function randomColor(){
+            let color = "0123456789ABCDEF";
+            let cons = "#";
+            for(let i = 0; i < 6; i++){
+                cons += color[Math.floor(Math.random() * 16)];
+            }
+            return cons;
+        }
+       
+      document.addEventListener("click", (e) => {
+         let body = document.querySelector("body");
+         let circle = document.createElement("div");
+         circle.classList.add("circle");
+         circle.style.left = `${e.clientX - 15}px`;
+         circle.style.top = `${e.clientY - 15}px`;
+         circle.style.backgroundColor = randomColor();
+
+         body.append(circle);
+
+         setTimeout(() => {
+           circle.remove();
+        }, 2000);
+
+      });
+
+    </script>
+</body>
+</html>
