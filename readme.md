@@ -33,3 +33,14 @@
 ### Tailwind Project - 
 
 [Visual Studio Clone](https://rafeahmad-vscodeclone-tailwindcss.netlify.app/)
+
+
+### JavaScript Assignments -
+
+[Solution of JavaScript basic questions](https://github.com/rafeahmad/FSJS_2.0/tree/main/JavaScript_Assingmnets/8th_Jan_Assignments)
+
+
+
+
+
+
