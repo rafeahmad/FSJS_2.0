@@ -11,10 +11,9 @@ shoppingCart.push("Sugar");
 console.log(shoppingCart);
 
 // - remove 'Honey'
-shoppingCart.pop();
+shoppingCart.splice(4, 1);
 console.log(shoppingCart);
 
 // - modify Tea to 'Green Tea'  
-shoppingCart.splice(2, 1, "Green Tea");
+shoppingCart.splice(3, 1, "Green Tea");
 console.log(shoppingCart);
-
