@@ -2,6 +2,10 @@
 
 ## Live links of projects -
 
+### Articles -
+[Articles Link](https://github.com/rafeahmad/FSJS_2.0/tree/main/Articles)
+
+
 ### HTML & CSS Projects -
 
 [Project 1 - SEO Website Landing Page](https://rafeahmad-html-css-project1.netlify.app/)
