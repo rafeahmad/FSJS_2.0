@@ -54,18 +54,9 @@
 //   console.log("`😇`");
 // }, 1000);
 
-// ForEACH
-// map
-// filter
-// reduce
-// find
-// every
-// some
-// sort
 
 
 // map
-
 // const numbers = [1, 2, 3, 4, 5, 6];
 // const numSqu = numbers.map((num) => num * num);
 // console.log(numSqu);
