@@ -57,6 +57,12 @@
 ### 13. Prototype and Prototype chaining
 
    [Link](https://ahmadrafe.hashnode.dev/prototype-prototype-chaining)
+   
+### 13. JavaScript Functions
+
+   [Link](https://ahmadrafe.hashnode.dev/javascript-function)
+   
+   
 
 
 
