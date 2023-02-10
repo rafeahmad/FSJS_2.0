@@ -268,3 +268,27 @@ const obj5 = {
 console.log(obj5.printComic().printComic().printComic());
 // console.log(obj5.printaComic());
 
+
+
+//Nested Object (object within object)
+
+// let user = {
+//    id: 101,
+//    email: "abc@gmail.com",
+
+//    personalinfo: {
+//      name: "Rafe Ahmad",
+//      age: 24,
+
+//     address: {
+//        locality: "kashipur",
+//        city: "Samastipur",
+//        country: "India",
+//     }
+
+//    }
+
+// };
+
+//       console.log(user.personalinfo.address.city);       //Output : Samastipur
+
