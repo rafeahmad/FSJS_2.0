@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+   <style>
+          /* Universal Selector */
+          /* The CSS universal selector (*) selects all the html element of the webpage. */
+          *{
+            background-color: rgb(247, 246, 246);
+          }
+
+          /* Individual Selector */
+          /* With this You can select any element individually and style that */
+
+           body {
+            padding: 10px;
+          }
+
+          h1 {
+            font-size: 45px;
+            text-align: center;
+            color: #120E43;
+          }
+    
+
+          /* class and id Selector */
+          /* The class selector selects HTML elements with a specific class attribute. You have to use (.) then write class name */
+          /* CSS id selectors select any element in an HTML page. The id attribute is the unique identifier in HTML document. You have to use (#) then write id name. */
+
+         .items {
+            background-color: rgb(42, 75, 9);
+            color: #ffffff;
+            padding: 8px;
+         }
+
+         #para {
+            background-color: #000000;
+            color: #ffffff;
+            margin: 10px;
+            padding: 5px 10px;
+         }
+
+          /* and Selector (chained) */
+          .main p {
+            background-color: darkslategray;
+            padding: 5px;
+            color: #ffffff;
+          } 
+
+          /* Combined or group Selector */
+          h2, p, button {
+            background-color: #E8BD0D;
+            color: #000;
+            padding: 5px
+          }
+
+
+          /* Inside an element */
+          div ul li {
+            background-color: #120E43;
+            color: #fff;
+            padding: 5px;
+          }
+
+          /* direct child */
+          div > li {
+            background-color: #1C8D73;
+            color: #fff;
+            padding: 5px;
+          }
+
+          /* sibling ~ or + */
+          .sibling-1 + p {
+            background-color: #35BDD0;
+          }
+          
+          .sibling-2 ~ p {
+           background-color: #FF6666;
+          }
+
+        
+   </style>
+</head>
+<body>
+    <!-- There are three way to write css - inline, internal and external -->
+    <!-- We write internal CSS within <style> tag which nested in <head> tag -->
+    <!-- We write external CSS with the help of <link> tag -->
+
+    <!-- In this file let's see how CSS selector works -->
+   <h1>CSS Selectors</h1>
+   <span>This is just a span tag</span>
+
+   <p id="para">This is a paragraph with id para</p>
+
+   <ul>
+    <li class="items">Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li class="items">Item 5</li>
+   </ul>
+
+   <h2>This is a Heading</h2>
+   <p>This is A paragraph</p>
+   <button>Click </button>
+
+   <div class="main">
+    <li>li tag within div</li>
+    <ul>
+        <li>li tag 1</li>
+        <li>li tag 2</li>
+    </ul>
+    <p>This is another paragraph within div tag which class name is main</p>
+   </div>
+
+
+   <div>
+    <p>First Paragraph</p>
+    <p>Second Paragraph</p>
+    <p class="sibling-1">Third paragraph</p>
+    <p>Fourth Paragraph</p>
+    <p>Fifth Paragraph</p>
+    <p>Sixth Paragraph</p>
+    <p class="sibling-2">Seventh paragraph</p>
+    <p>Eighth paragraph</p>
+    <p>Ninth paragraph</p>
+    <p>Tenth paragraph</p>
+  </div>
+
+  
+
+</body>
+</html>
