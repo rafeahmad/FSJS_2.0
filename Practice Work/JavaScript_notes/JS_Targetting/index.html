@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    #btn-2 {
+        background-color: red;
+        color: white;
+    }
+
+    /* Change Css class by JavaScript */
+    .color{
+         background-color: yellow;
+         color: black;
+    }
+    .dim{
+        border: 1px solid red;
+        padding: 100px;
+    }
+
+      /* Change list Item  */
+    .button {
+        padding: 10px;
+        font-size: 10px;
+        border-radius: 10px;
+    }
+</style>
+
+</head>
+<body>
+    
+    <h1> Heading 1  </h1>
+    <ul id="intro">
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+        <li>list 4</li>
+    </ul>
+    <button class="button" onclick="changeList()">Change List</button>
+ 
+
+
+    <h1> Heading 2 </h1>
+    <ul id="list">
+        <li>list a</li>
+        <li>list b</li>
+        <li>list c</li>
+        <li>list d</li>
+    </ul>
+
+
+
+    
+     <!--Create and append Element-->
+    <div id="p1">
+        
+        <p>Hello, This is a p tag</p>
+
+    </div>
+        
+
+    
+
+    <!--Insert Adjacent HTML-->
+    <!--beforebegin-->
+    <div id="main">
+      <!--afterbegin-->
+      <h2>Heading</h2>
+      <p>This is a p tag</p>
+      <!--beforeend-->
+    </div>
+    <!--afterend-->
+
+
+
+<!--Change & add Attribute-->
+<button id="btn" value="submit">Send</button>
+
+
+<button id="btn-2">Click me</button>
+
+
+
+
+
+<!--Change Css class by JavaScript-->
+<div id="box" class="color dim">
+    <p>This is a dummy text</p>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
