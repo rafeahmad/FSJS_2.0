@@ -458,10 +458,6 @@ navbartoggle.addEventListener("click", function(){
 
 ### Change h1 color and button color on mouseover
 
-**Output -**
-
-![DOM_P_9th](https://user-images.githubusercontent.com/119880897/220031926-4e31646d-b95b-4204-9244-fe38adc6b0e4.jpg)
-
 ### *Solution -*
 
 **Change h1 color**
@@ -482,7 +478,9 @@ hover.addEventListener("mouseout", () => {
 })
 ```
 
+**Output -**
 
+https://user-images.githubusercontent.com/119880897/220033361-e4976177-9fad-46b3-9238-35ffea547d9e.mp4
 
 
 
