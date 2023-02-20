@@ -8,22 +8,6 @@ for(let i = 0; i < languages.length; i++){
     }
 }
 
-// let inputBox = document.querySelector(".main__form-input"); inputBox.disabled = false;
-
-// let submitBtn = document.querySelector(".main__form-btn"); submitBtn .disabled = false;
-
-// submitBtn.addEventListener("click",(event) =>{
-
-// for(let i= 0; i < language.length; i++){
-
-//     if(language[i].innerHTML.includes("2.0")){
-//        language[i].style.display = "inline";
-       
-//     } 
-
-// }  
-// });
-
 
 
 const submitBtn = document.getElementsByClassName('main__form-btn')[0];
