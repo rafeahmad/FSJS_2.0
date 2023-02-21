@@ -1,37 +1,6 @@
 // ...........ECMASCRIPT - 06 (ES6) or ES(2015).................
 
 
-// Rest Parameter (...)
-
-// The rest parameter (...) allows a function to treat an indefinite number of arguments as an array:
-
-//  function sum(...args){
-//     let result = 0;
-
-//     for(let i = 0; i < args.length; i++){
-//          result += args[i];
-//     }
-//      document.getElementById("demo2").innerHTML = result;
-//  }
-
-// sum(2, 5, 8);          //ouptput 15
-
-
-
-
-
-// Spread Operator (...)
-//The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object.
-
-// let array1 = [1, 2, 3];
-
-// let array2 = [...array1, 4, 5, 6];
-
-//    document.getElementById("demo2").innerHTML = array2;
-
-
-
-
 //.......... ES6 - ARRAY DESTRUTURING............
 
 //      let book = ["Advance Js", 200, 300];
