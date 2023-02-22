@@ -1,12 +1,12 @@
           document.getElementById("demo").style.color = "blue";         
            
-        //    while loop  (how to display text 10 times)
-        //The while loop loops through a block of code as long as a specified condition is true
+        // while loop  
+        // The while loop loops through a block of code as long as a specified condition is true
     
         //  let counter = 1;
 
         //   while(counter <= 10){
-        //      document.write("TechGun");
+        //      document.write("Rafe Ahmad");
         //      document.write('<br>');            /* (line break) */
         //       counter++;
         //  }
@@ -17,7 +17,7 @@
 
 
 
-            // Addition of even Number between 1 to 100
+     // Addition of even Number between 1 to 100
 
      
     //  let count = 1;
@@ -31,21 +31,14 @@
            
     //     }
     //     console.log(sum);
-
- 
-
-
- 
-
-
     
+
 //   do while Loop (display text atleast one time)
 
-  
 //    let counter = 11;
 
 //    do{
-//       document.write('TechGun');
+//       document.write('Rafe Ahmad');
 //       document.write('</br>');
 //       counter++;
 
@@ -53,20 +46,12 @@
 
 
 
-
-
-
-
-     
 // for Loop (........all conditions in one parantheses()..........)
 
 
 //    for(let counter = 1; counter <= 10; counter++){
 //           document.write('TechGun');
 //    }
-
-
-
 
 
 //  ...........break loop...........
@@ -82,9 +67,6 @@
 // }
 
 
-
-
-
 // ........continue Loop...........
 
     //   for(let counter = 1; counter <= 10; counter++){
@@ -96,11 +78,6 @@
     //         document.write(counter);
     //         document.write('<br>');
     //   }  
-
-
-
-
-
 
 
 //  .........nested Loop.........
@@ -138,9 +115,18 @@
 //  }
 
 
- //for...in 
-//  for(let i in marks_10){
-//   console.log(marks_10[i]);
+// for...in - 
+// The for...in statement iterates over all enumerable properties of an object.
+
+//  let marks = {
+//   maths: 90, 
+//   english: 52, 
+//   science: 60, 
+//   hindi: 80, 
+//   computer: 75
+// }
+//  for(let key in marks){
+//   console.log(`${key}: ${marks[i]}`);
 // }
 
 
@@ -151,15 +137,10 @@
 
 
 
-
-
 // let n = "Ahmad";
-
 // for(let i = 0; i < n.length; i++){
 //    console.log(m[i])
 // }
-
-
 
 
 
@@ -187,7 +168,6 @@ break;
 }
 
 }*/
-
 
 
 
