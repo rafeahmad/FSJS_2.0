@@ -39,10 +39,13 @@
 [Visual Studio Clone](https://rafeahmad-vscodeclone-tailwindcss.netlify.app/)
 
 
-### JavaScript Assignments -
+### Core JavaScript Assignments -
 
 [Solution of JavaScript basic questions](https://github.com/rafeahmad/FSJS_2.0/tree/main/JavaScript_Assingmnets/8th_Jan_Assignments)
 
+
+### JavaScript DOM Assignments -
+[DOM Assignment](https://github.com/rafeahmad/FSJS_2.0/tree/main/JavaScript_DOM/28th%20Jan%20JavaScript2.0%20(DOM%20Assignment)/DOM%20Assignments%202.0%20Batch%20copy)
 
 
 
