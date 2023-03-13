@@ -39,6 +39,10 @@
 [Visual Studio Clone](https://rafeahmad-vscodeclone-tailwindcss.netlify.app/)
 
 
+### JavaScript Projects -
+[Calculator](https://rafeahmad-js-calculator-app.netlify.app/)
+
+
 ### Core JavaScript Assignments -
 
 [Solution of JavaScript basic questions](https://github.com/rafeahmad/FSJS_2.0/tree/main/JavaScript_Assingmnets/8th_Jan_Assignments)
