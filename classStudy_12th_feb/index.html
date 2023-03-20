@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .header {
+        color: purple;
+        border: 20px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="root">Not Rendering</div>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <script type="text/babel">
+      const rootElement = document.querySelector(".root");
+      //   const cssss = { border: "2px solid pink", backgroundColor: "yellow" };
+      const header = (
+        <header className="header">
+          <h1>Hello, Welcome BACK REACT</h1>
+          <p>Welcome to React CDN</p>
+        </header>
+      );
+
+      const main = (
+        <main>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa,
+            beatae?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            autem?
+          </p>
+        </main>
+      );
+
+      const footer = (
+        <footer>
+          <p>Copyright @ 2023</p>
+        </footer>
+      );
+
+      // To include JSX element / Javascript expression inside another Element we use {}
+      const app = (
+        <div>
+          {header} {main} {main} {main} {main} {main} {main}
+          {footer}
+        </div>
+      );
+      ReactDOM.render(app, rootElement);
+    </script>
+  </body>
+</html>
